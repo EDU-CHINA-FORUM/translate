@@ -8,10 +8,10 @@
 # Secure the Area
 
 ## Step 1
-Program the Agent to construct an **oak fence**. The agent needs to place **oak fence** blocks to the right, destroy obstacles and move forward. The fence should be **17 blocks** long. 
+让小机器人建造 **橡木 栅栏**. 小机器人需要在它的右侧建造 **橡木 栅栏** , 并且破坏阻拦行动的土块. 这面栅栏墙应当有 **17 格长** . 
 
 #### ~ tutorialhint
-Ensure that the Agent places blocks on the right and destroys blocks on the left. 
+确保小机器人在右侧放置栅栏并破坏阻拦前行的方块。
 
 ```blocks
 player.onChat("fence", function () {
